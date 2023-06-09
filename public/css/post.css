@@ -1,0 +1,500 @@
+/* *{
+    background-color: red;
+} */
+.add_button{
+    width: 100%;
+}
+.add_form{
+    width: 300px;
+    margin: auto;
+}
+/* body {
+    font-family: 'Lato', sans-serif;
+  } */
+
+
+  body {
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .etnankar{
+      
+  }
+  body{
+    background-image: linear-gradient( yellow, green,yellow,green,yellow);
+   
+}
+.logoyi_div{
+  /* background-color: black; */
+  border: 10px solid black;
+  /* width: 100%;
+  height: 200px;
+  padding: 10px;
+  margin: -10px; */
+}
+
+
+
+.posti_nkarner{
+  border-radius: 15px;
+  width: 300px;
+  height: 300px;
+  float: left;
+  /* margin: 10px; */
+  /* padding: 10px; */
+  box-shadow: 10px 10px black;
+  margin: 20px;
+}
+.vernagir{
+  text-align: center;
+  /* text-shadow: 2px 4px 4px blue; */
+  
+  
+}
+.content{
+  width: 900px;
+  margin:auto;
+ 
+}
+/* .container{
+ text-align: center;
+ height: 1200px;
+
+} */
+
+* {box-sizing: border-box} 
+ body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 900px;
+  /* width: 700px;
+  height: 400px; */
+  /* width: auto; */
+  
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  /* color: #f2f2f2; */
+  
+  font-size: 15px;
+  padding: 8px 12px;
+  /* position: absolute; */
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+ margin: 40px;
+  
+  
+  width: 800px;
+ 
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+.tertvox_nkar {
+  border-radius: 15px;
+}
+.linki_nkar{
+  width: 500px;
+  height: 200px;
+  border-radius: 15px;
+  box-shadow: 5px 10px black;
+  
+}
+.linki_nkarr{
+  border-radius: 15px;
+  margin-top: 5px;
+  width: 1008px;
+  height: 200px;
+  box-shadow: 5px 10px black;
+}
+.linki_nkarneri_div{
+  text-align: center;
+}
+.nkaragrucyun{
+  width: 1008px;
+  /* text-align: center; */
+  margin: auto;
+}
+
+.kentron{
+  background-color: #a3cc33;
+  background-image: linear-gradient( yellow, #a3cc33,#80ff00,#a3cc33,yellow,#80ff00);
+ border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+margin: auto;
+  width: 900px;
+}
+
+ul {
+  height: 100px;
+  list-style-type: none;
+  margin: 0;
+  /* padding: 30; */
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+    margin-left:70px;
+}
+
+li a {
+  display: block;
+  color: white;
+  margin: 30px;
+ 
+  /* padding: 10px; */
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+  /* margin-left:70px; */
+}
+.feysbuqi_logo{
+  width: 40px;
+  height: 40px;
+  border-radius: 30px;
+  margin-top: 35px;
+}
+.footer_hamar{
+  color: white;
+  padding: 0px;
+  margin: 0px;
+}
+.footer_hamarr{
+  color: white;
+  margin-left: 120px;
+ margin-top: -50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cardd {
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  
+  
+  width: 200px;
+  height: 200px; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 270px;
+  height: 420px;
+  font-family: arial;
+  margin:15px;
+  float: left;
+  border-style: solid ;
+  border-radius:17px;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.cardd button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 15px;
+}
+
+.cardd button:hover {
+  opacity: 0.7;
+}
+.producti_nkar{
+border-radius:15px;
+/* width: 200px; */
+height: 160px;
+}
+.tvyalneri_lracum{
+  text-align: center;
+}
+
+
+.kentonakan{
+
+text-align: center;
+}
+.com{
+ /* margin-right: 200px; */
+ /* background-color: red; */
+ margin-left: -100px;
+}
+.comm{
+  margin: 15px;
+ 
+}
+
+.footer_contact{
+  float: right;
+  /* background-color: red; */
+  margin-top: 30px;
+  width: 300px;
+  height: 100px;
+ margin: 40px;
+}
+/* .translate{
+  float: right;
+padding: 5px;
+margin-top:-15px;
+} */
+
+.img_thumbnail {
+  position: relative;
+  padding: 0px;
+  margin-bottom: 20px;
+}
+.img_thumbnail img {
+  width: 100%;
+}
+.img_thumbnail .caption{
+  margin: 7px;
+  text-align: center;
+}
+.dropdown{
+  float:right;
+  padding-right: 30px;
+}
+.btn{
+  border:0px;
+  margin:10px 0px;
+  box-shadow:none !important;
+}
+.dropdown .dropdown-menu{
+  padding:20px;
+  top:30px !important;
+  width:350px !important;
+  left:-110px !important;
+  box-shadow:0px 5px 30px black;
+}
+.total-header-section{
+  border-bottom:1px solid #d2d2d2;
+}
+.total-section p{
+  margin-bottom:20px;
+}
+.cart-detail{
+  padding:15px 0px;
+}
+.cart-detail-img img{
+  width:100%;
+  height:100%;
+  padding-left:15px;
+}
+.cart-detail-product p{
+  margin:0px;
+  color:#000;
+  font-weight:500;
+}
+.cart-detail .price{
+  font-size:12px;
+  margin-right:10px;
+  font-weight:500;
+}
+.cart-detail .count{
+  color:#000;
+}
+.checkout{
+  border-top:1px solid #d2d2d2;
+  padding-top: 15px;
+}
+.checkout .btn-primary{
+  border-radius:50px;
+
+}
+.dropdown-menu:before{
+  content: " ";
+  position:absolute;
+  top:-20px;
+  right:50px;
+  border:10px solid transparent;
+  border-bottom-color:#fff;
+}
+
+.productlist {
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  border-radius: 10px;
+  height: 100%;
+  overflow: hidden;
+}
+
+.taki_git{
+  text-align: center;
+  opacity: -1;
+
+}
+
